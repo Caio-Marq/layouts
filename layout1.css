@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.topo{
+     display: flex;
+     justify-content: center;
+     gap: 42px;
+     background-color: tomato;
+     height: 100px;
+     align-items: center;
+
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    height: 100px;
+    flex-grow: 1;
+    align-items: center;
+
+}
+
+.fim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    height: 200px;
+}
